@@ -21,18 +21,18 @@ android {
     buildToolsVersion '27.0.2'
 
     defaultConfig {
-        applicationId "com.google.firebase.samples.apps.friendlypix"
+        applicationId "com.petymal.android"
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 3
-        versionName "20160401.02"
+        versionCode 1
+        versionName "0.10"
     }
     signingConfigs {
         release {
             storeFile file("release.jks")
-            storePassword "friendlypix"
-            keyAlias "friendlypix"
-            keyPassword "friendlypix"
+            storePassword "petymal"
+            keyAlias "petymal"
+            keyPassword "petymal"
         }
     }
     buildTypes {
@@ -48,10 +48,10 @@ android {
         dev {
         }
         prod {
-            applicationId "pub.devrel.friendlypix"
+            applicationId "pub.devrel.petymal"
         }
         dev2 {
-            applicationId "com.google.firebase.samples.apps.friendlypixtest"
+            applicationId "com.petymal.android"
         }
     }
     packagingOptions {
@@ -82,6 +82,7 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:11.8.0'
     compile 'com.google.firebase:firebase-database:11.8.0'
     compile 'com.google.firebase:firebase-crash:11.8.0'
+    compile 'com.google.firebase:firebase-core:11.8.0'
     compile 'pub.devrel:easypermissions:1.1.3'
     compile 'com.github.bumptech.glide:glide:4.5.0'
     compile 'de.hdodenhof:circleimageview:2.1.0'

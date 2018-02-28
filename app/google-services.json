@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "189996472451",
+    "firebase_url": "https://petymal-app.firebaseio.com",
+    "project_id": "petymal-app",
+    "storage_bucket": "petymal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189996472451:android:9196469dbce7f348",
+        "android_client_info": {
+          "package_name": "com.petymal.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189996472451-s3plj7ruk37u3glc5c6jsueaans9lng5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMLc7pMErKmBCk2Vu6uLe9ESBHjKTME9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
